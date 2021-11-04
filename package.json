@@ -1,0 +1,37 @@
+{
+  "name": "algolia-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "algoliasearch": "^4.11.0",
+    "anymatch": "^3.1.2",
+    "clone-response": "^1.0.2",
+    "decompress-response": "^3.3.0",
+    "express": "^4.17.1",
+    "make-dir": "^3.1.0",
+    "mimic-response": "^1.0.1",
+    "minimist": "^1.2.5",
+    "morgan": "^1.10.0",
+    "nopt": "^1.0.10",
+    "normalize-url": "^4.5.1",
+    "normalize-path": "^3.0.0",
+    "p-cancelable": "^1.1.0",
+    "picomatch": "^2.3.0",
+    "prepend-http": "^2.0.0",
+    "pupa": "^2.1.1",
+    "readdirp": "^3.6.0",
+    "responselike": "^1.0.2",
+    "semver-diff": "^3.1.1",
+    "signal-exit": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
